@@ -1,0 +1,17 @@
+.booking-form-style{
+width: 55%;
+height: 70%;
+background-color: #FFFFFF;
+border-radius: 5px;
+padding:20px;
+box-shadow:6px 6px 10px lightgrey;
+margin-left: 2%;
+}
+
+.booking-btn{
+    width: 80%;
+    margin: 0% 0% 0% 8%;
+}
+.aria{
+    width:40%
+}

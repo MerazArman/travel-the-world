@@ -1,0 +1,178 @@
+/* #form-box{
+    position: absolute;
+    width: 570px;
+    height: 490px;
+    left: 438px;
+    top: 100px;
+    padding-left:50px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    }
+    
+    .btn-style{
+        height: 50px;
+    background: #F9A51A;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    top: 321px;
+    }
+    #form-box p{
+    position: absolute;
+    width: 231px;
+    height: 22px;
+    left: 160px;
+    top: 385px;
+    } */
+
+
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 10%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+        border: 1px solid yellow;
+      }
+      .center h1{
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid silver;
+      }
+      .center form{
+        padding: 0 40px;
+        box-sizing: border-box;
+      }
+      form .txt_field{
+        position: relative;
+        border-bottom: 1px solid #adadad;
+        margin: 20px 0;
+      }
+      .txt_field input{
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+      }
+      .txt_field label{
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        color: #adadad;
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+        transition: .5s;
+      }
+      .txt_field span::before{
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background: #F9A51A;
+        transition: .5s;
+      }
+      .txt_field input:focus ~ label,
+      .txt_field input:valid ~ label{
+        top: -5px;
+        color: #F9A51A;
+      }
+      .txt_field input:focus ~ span::before,
+      .txt_field input:valid ~ span::before{
+        width: 100%;
+      }
+      .pass{
+        margin: -5px 0 20px 5px;
+        color:#F9A51A;
+        cursor: pointer;
+      }
+      .pass:hover{
+        text-decoration: underline;
+      }
+      input[type="submit"]{
+        width: 100%;
+        height: 50px;
+        border: 1px solid;
+        background: #F9A51A;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+      }
+      input[type="submit"]:hover{
+        border-color: #F9A51A;
+        transition: .5s;
+      }
+      .signup_link{
+        margin: 30px 0;
+        text-align: center;
+        font-size: 16px;
+        color: #666666;
+      }
+      .signup_link span{
+        color: #F9A51A;
+        text-decoration: none;
+      }
+      .signup_link span:hover{
+        text-decoration: underline;
+      }
+
+      .social-site-box{
+          position:absolute;
+          top: 130%;
+          left:25%;
+          border:1px solid yellow;
+          width:50%;
+          height:300px;
+      }
+
+  .or-style{
+    /* position: absolute;
+    left: 695px;
+    top: 595px; */
+    
+    }
+    
+    .fb-account{
+    /* position: absolute; */
+    width: 330px;
+    height: 50px;
+    /* left: 39%;
+    top: 120%; */
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+    }
+    .google-account{
+    /* position: absolute; */
+    width: 330px;
+    height: 50px;
+    /* left: 39%;
+    top: 720px; */
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+    }
+    
+    
+    .fb-icon{
+    /* position: absolute;
+    left: 30px;
+    bottom:8px; */
+    }
+    

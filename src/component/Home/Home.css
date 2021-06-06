@@ -1,0 +1,29 @@
+.sajek{
+    background-image: url(../../Image/Sajek.png);
+ }
+ .coxbazar{
+   background-image: url(../../Image/Rectangle\ 1.png);
+ }
+ .sreemongol{
+   background-image: url(../../Image/Sreemongol.png);
+ }
+ .sundorbon{
+   background-image: url(../../Image/sundorbon.png);
+ }
+ .sylhet{
+   background-image: url(../../Image/sylhet.jpeg);
+ }
+
+ .slide-image {
+    position: relative;
+     width: 100%;
+     height: 330px;
+     border-radius:10px;
+     border:1px solid yellow; 
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size:cover;
+     padding:10px;
+     /* opacity: 0.8;
+     transition: 0.5s; */
+  }
